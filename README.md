@@ -1,1 +1,2 @@
-# settings
+# Settings
+## [Applications](apps.md)
