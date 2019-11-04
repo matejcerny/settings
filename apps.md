@@ -27,25 +27,37 @@ brew cask install intellij-idea
 brew cask install homebrew/cask-versions/adoptopenjdk8
 brew install apache-spark
 brew cask install anaconda2
+brew cask install virtualbox
+brew install docker docker-machine
+brew cask install docker-toolbox
+docker-machine create --driver virtualbox default
+```
+
+## BigData
+```
 brew install --HEAD coursier/formulas/coursier
-
 ```
-
-## Utils
-```
-brew cask install scroll-reverser
-brew cask install atom
-brew cask install google-backup-and-sync
-brew cask install balenaetcher
-```
+https://almond.sh/docs/quick-start-install
 
 ## Nexus certificate
 ```
 sudo keytool -importcert -file cert.cer -keystore /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/security/cacerts
 ```
 
-## Other
+## Remapping of home/end keys
 ```
+mkdir ~/Library/KeyBindings/
+cp configs/DefaultKeyBinding.dict ~/Library/KeyBindings/
+```
+
+## Utils & other
+```
+brew install micro
+brew cask install opera
+brew cask install atom
+brew cask install google-backup-and-sync
+brew cask install balenaetcher
 brew cask install evernote
 brew cask install vlc
+brew install wine
 ```
