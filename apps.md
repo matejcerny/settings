@@ -1,4 +1,4 @@
-# MacOS applications
+# Applications
 ## Package manager
 ```
 xcode-select --install
@@ -35,45 +35,22 @@ brew install grc
 cp configs/.bash_profile ~/.bash_profile
 ```
 
-## Development
+## Productivity
 ```
-mkdir ~/dev/git -p
-brew install git
-brew cask install intellij-idea
-brew cask install homebrew/cask-versions/adoptopenjdk8
-brew install apache-spark
-brew cask install anaconda2
-brew cask install virtualbox
-brew install docker docker-machine
-brew cask install docker-toolbox
-docker-machine create --driver virtualbox default
+https://affinity.serif.com/en-gb/designer/
+https://www.blackmagicdesign.com/products/davinciresolve/
+https://community.gopro.com/t5/en/GoPro-legacy-software/ta-p/595533
 ```
 
-## BigData
-```
-brew install --HEAD coursier/formulas/coursier
-```
-https://almond.sh/docs/quick-start-install
-
-## Nexus certificate
-```
-sudo keytool -importcert -file cert.cer -keystore /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/security/cacerts
-```
-
-## Remapping of home/end keys
-```
-mkdir ~/Library/KeyBindings/
-cp configs/DefaultKeyBinding.dict ~/Library/KeyBindings/
-```
-
-## Utils & other
+## Other
 ```
 brew cask install atom
 brew cask install balenaetcher
 brew cask install cyberduck
 brew cask install evernote
 brew cask install google-backup-and-sync
-brew cask install opera
+brew cask install brave-browser
 brew cask install signal
+brew cask install transmission
 brew cask install vlc
 ```
