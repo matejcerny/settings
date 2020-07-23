@@ -47,8 +47,8 @@ https://community.gopro.com/t5/en/GoPro-legacy-software/ta-p/595533
 brew cask install atom
 brew cask install balenaetcher
 brew cask install brave-browser
+brew cask install boostnote
 brew cask install cyberduck
-brew cask install evernote
 brew cask install google-backup-and-sync
 brew cask install keka
 brew cask install signal
