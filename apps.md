@@ -18,7 +18,8 @@ cp configs/config ~/.ssh/config
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
-download & install https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode
+brew tap homebrew/cask-fonts
+brew cask install font-fira-code
 
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
