@@ -3,12 +3,11 @@
 mkdir ~/dev/git -p
 brew install git
 brew cask install intellij-idea
-brew cask install homebrew/cask-versions/adoptopenjdk8
-```
-
-## Docker
-```
-https://download.docker.com/mac/stable/Docker.dmg
+brew tap AdoptOpenJDK/openjdk
+brew cask install adoptopenjdk8
+brew cask install adoptopenjdk11
+brew install jenv
+brew cask install docker
 ```
 
 ## BigData
