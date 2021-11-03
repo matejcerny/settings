@@ -1,19 +1,27 @@
 # Development
 ```
 mkdir ~/dev/git -p
-brew install git
-brew cask install intellij-idea
+brew install ansible
+
 brew tap AdoptOpenJDK/openjdk
-brew cask install adoptopenjdk8
-brew cask install adoptopenjdk11
+brew install adoptopenjdk8
+brew install adoptopenjdk11
+
+brew install awscli
+brew install docker
+brew install git
+brew install intellij-idea
 brew install jenv
-brew cask install docker
+brew install kubernetes-cli
+brew install pgadmin4
+brew install terraform
+brew install terraforming
 ```
 
 ## BigData
 ```
 brew install apache-spark
-brew cask install anaconda2
+brew install anaconda2
 ```
 
 Scala kernel for Jupyter https://almond.sh/docs/quick-start-install

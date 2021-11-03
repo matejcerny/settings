@@ -8,7 +8,7 @@ brew update
 
 ## Terminal
 ```
-brew cask install iterm2
+brew install iterm2
 
 ssh-add -K ~/.ssh/cerny_private_pass.pem
 cp configs/config ~/.ssh/config
@@ -19,7 +19,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
 brew tap homebrew/cask-fonts
-brew cask install font-fira-code
+brew install font-fira-code
 
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
@@ -45,14 +45,14 @@ https://community.gopro.com/t5/en/GoPro-legacy-software/ta-p/595533
 
 ## Other
 ```
-brew cask install atom
-brew cask install balenaetcher
-brew cask install brave-browser
-brew cask install boostnote
-brew cask install cyberduck
-brew cask install google-backup-and-sync
-brew cask install keka
-brew cask install signal
-brew cask install transmission
-brew cask install vlc
+brew install atom
+brew install balenaetcher
+brew install brave-browser
+brew install boostnote
+brew install cyberduck
+brew install google-backup-and-sync
+brew install keka
+brew install signal
+brew install transmission
+brew install vlc
 ```

@@ -1,7 +1,7 @@
 # Utilities
 ## Mouse drivers
 ```
-brew cask install homebrew/cask-drivers/logitech-options
+brew install homebrew/cask-drivers/logitech-options
 ```
 
 ## Remapping of home/end keys
