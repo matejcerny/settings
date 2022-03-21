@@ -9,3 +9,7 @@ brew install homebrew/cask-drivers/logitech-options
 mkdir ~/Library/KeyBindings/
 cp configs/DefaultKeyBinding.dict ~/Library/KeyBindings/
 ```
+## Turn off power nap
+```
+sudo pmset -a powernap 0
+```
