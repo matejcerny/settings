@@ -36,9 +36,10 @@ brew install intellij-idea
 brew install jenv
 brew install kubernetes-cli
 brew install lens
-brew install openjdk
 brew install pgadmin4
+brew install postman
 brew install robo-3t
+brew install --cask temurin17
 brew install terraform
 brew install terraforming
 ```
