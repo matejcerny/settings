@@ -32,13 +32,14 @@ brew install awscli
 brew install azure-cli
 brew install --cask docker
 brew install git
-brew install intellij-idea
+brew install intellij-idea-ce
 brew install jenv
 brew install kubernetes-cli
 brew install lens
 brew install pgadmin4
 brew install postman
 brew install robo-3t
+brew install sbt
 brew install --cask temurin17
 brew install terraform
 brew install terraforming
