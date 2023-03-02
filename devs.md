@@ -1,7 +1,8 @@
 # Development
 
 ## Terminal
-```
+
+``` bash
 brew install iterm2
 
 ssh-add -K ~/.ssh/cerny_private_pass.pem
@@ -9,7 +10,8 @@ cp configs/config ~/.ssh/config
 ```
 
 ### OhMyZSH
-```
+
+``` bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
@@ -22,7 +24,8 @@ cp configs/.zshrc ~/.zshrc
 ```
 
 ### Apps
-```
+
+``` bash
 mkdir -p ~/dev/backup
 mkdir -p ~/dev/git
 mkdir -p ~/dev/temp
@@ -32,7 +35,7 @@ brew install awscli
 brew install azure-cli
 brew install --cask docker
 brew install git
-brew install intellij-idea-ce
+brew install intellij-idea
 brew install jenv
 brew install kubernetes-cli
 brew install lens
@@ -46,17 +49,20 @@ brew install terraforming
 ```
 
 ## BigData
-```
+
+``` bash
 brew install apache-spark
 brew install anaconda2
 ```
 
 Scala kernel for Jupyter https://almond.sh/docs/quick-start-install
-```
+
+``` bash
 brew install --HEAD coursier/formulas/coursier
 ```
 
 ## Nexus certificate
-```
+
+``` bash
 sudo keytool -importcert -file cert.cer -keystore /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/security/cacerts
 ```

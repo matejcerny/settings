@@ -1,14 +1,16 @@
 # Applications
 
 ## Productivity
-```
+
+``` bash
 https://affinity.serif.com/en-gb/designer/
 https://www.blackmagicdesign.com/products/davinciresolve/
 https://community.gopro.com/t5/en/GoPro-legacy-software/ta-p/595533
 ```
 
 ## Other
-```
+
+``` bash
 brew install atom
 brew install balenaetcher
 brew install brave-browser

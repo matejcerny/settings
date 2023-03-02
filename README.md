@@ -1,10 +1,12 @@
 # Settings for MacOS
 
 ## Package manager
-```
+
+### [Homebrew](https://brew.sh/)
+
+``` bash
 xcode-select --install
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew update
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 ## [Applications](apps.md)
