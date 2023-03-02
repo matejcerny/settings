@@ -4,8 +4,11 @@
 
 ### [Homebrew](https://brew.sh/)
 
+Working Apple ID is required.
+
 ``` bash
 xcode-select --install
+
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
